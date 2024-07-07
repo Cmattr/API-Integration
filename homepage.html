@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+        footer {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body class="bg-secondary">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <img src="Pokeball.png" alt="Pokeball" style="height: 100px; width: auto;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fst-italic" style="color: white;" href="pokemon_Search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fst-italic" style="color: white;" href="pokemon_details.html">Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fst-italic" style="color: white;" href="pokemon_Abilities.html">Abilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fst-italic" style="color: white;" href="pokemon_type.html">Types</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="container-fluid" id="header" style="text-align: center;">
+        <div class="row" style="background: linear-gradient( rgb(0, 110, 255), yellow)">
+            <div class="col my-2 round">
+                <br>
+                <img src="Logo.webp" alt="Pokemon" style="height: 200px; width: auto;">
+                <h1 class="fst-italic" style="color: white;">Welcome to the Worlds favorite Pokedex</h1>
+            </div>
+        </div>
+    </header>
+    <main class="container" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+        <div class="row my-3">
+            <div class="col fs-5" style="color: white; background-color: rgb(0, 110, 255); border: 5px ridge yellow;">
+                <h2 style="color: white;">Start Your Pokemon Adventure!</h2>
+                <blockquote >Hello and Welcome to The Pokemon Webpage,
+                    <br>
+                    Here you can find all the information about everything pokemon. We pride ourselves in keeping up to date with all information related to your favorite Pokemon.
+                    Feel free to explore using the available Links above.  
+                </blockquote>
+                <ul>
+                    <li>Search - Search for your favorite Pokemon by name or number. View Height, Weight, and Type.</li>
+                    <li>Details - Search for you favorite Pokemon by name. View Pokemon Type, abilities, and stats.</li>
+                    <li>Abilities - A list of all pokemon abilities with descriptions</li>
+                    <li>Types - Categorize Pokemon into Types.</li>
+                </ul>
+               <p>if you Have any comments, Questions or Concerns. Please feel free to contact us at the information provided below.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="row accordion accordion-flush mb-5" id="accordionFlushExample">
+            <div class="col accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Contact Info
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <strong>Contact Us:</strong>
+                        <p>Email: <a href="email@email.com">Generic@email.com</a></p>
+                        <p>Phone: <a href="(502)555-5555">(502)555-5555</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Social Media Links
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <strong>Links:</strong> 
+                        <p>Facebook:</p>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                    </div>
+                    <div class="accordion-body">
+                        <strong>Links:</strong> 
+                        <p>Instagram:</p>
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

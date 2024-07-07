@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a8a8a8;
+    margin: 0;
+    padding: 20px;
+}
+
+#abilities-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.ability-card {
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.479);
+    border: 5px ridge yellow;
+    color: white;
+    background-color: rgb(28, 61, 248);
+}
+
+.ability-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.ability-description {
+    font-size: 18px;
+}
