@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
         grass: '#78C850',
         fire: '#F08030',
         water: '#6890F0',
-        // Add more type colors as needed
     };
 
     const createTypeContainer = (type) => {
